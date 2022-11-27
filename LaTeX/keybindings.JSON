@@ -1,0 +1,73 @@
+// LaTeX snippets
+    {
+        "key": "ctrl+m ctrl+shift+9",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId=='latex'",
+        "args": {
+            "snippet": "\\left( $0 \\right)"
+        }
+    },
+    {
+        "key": "ctrl+m ctrl+[",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId=='latex'",
+        "args": {
+            "snippet": "\\left[ $0 \\right]"
+        }
+    },
+    {
+        "key": "ctrl+m ctrl+shift+[",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId=='latex'",
+        "args": {
+                "snippet": "\\left\\{$0\\right\\}"
+        }
+    },
+    {
+        "key": "ctrl+m ctrl+m",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId=='latex'",
+        "args": {
+            "snippet": "$ $0 $"
+        }
+    },
+    {
+        "key": "ctrl+m ctrl+d",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId=='latex'",
+        "args": {
+            "snippet": "\\diff{$1}{$2}"
+        }
+    },
+    {
+        "key": "ctrl+m ctrl+shift+d",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId=='latex'",
+        "args": {
+            "snippet": "\\ddiff{$1}{$2}"
+        }
+    },
+    {
+        "key": "ctrl+m ctrl+q",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId=='latex'",
+        "args": {
+            "snippet": "\\pdenom{$1}"
+        }
+    },
+    {
+        "key": "ctrl+m ctrl+shift+q",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId=='latex'",
+        "args": {
+            "snippet": "\\dpdenom{$1}"
+        }
+    },
+    {
+        "key": "ctrl+m ctrl+a",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId=='latex'",
+        "args": {
+            "snippet": "\\begin{align}\n\t$0\n\\end{align}"
+        }
+    },  

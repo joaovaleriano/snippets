@@ -24,6 +24,14 @@
         }
     },
     {
+        "key": "ctrl+m ctrl+shift+,",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId=='latex'",
+        "args": {
+            "snippet": "\\left\\langle $0 \\right\\rangle"
+        }
+    },
+    {
         "key": "ctrl+m ctrl+m",
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus && editorLangId=='latex'",
@@ -45,6 +53,22 @@
         "when": "editorTextFocus && editorLangId=='latex'",
         "args": {
             "snippet": "\\ddiff{$1}{$2}"
+        }
+    },
+    {
+        "key": "ctrl+m ctrl+f",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId=='latex'",
+        "args": {
+            "snippet": "\\frac{$1}{$2}"
+        }
+    },
+    {
+        "key": "ctrl+m ctrl+shift+f",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId=='latex'",
+        "args": {
+            "snippet": "\\dfrac{$1}{$2}"
         }
     },
     {
@@ -70,4 +94,4 @@
         "args": {
             "snippet": "\\begin{align}\n\t$0\n\\end{align}"
         }
-    },  
+    },
